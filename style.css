@@ -1,0 +1,65 @@
+.container{
+    text-align:center;
+    align-items: flex-end;
+
+    
+}
+.mx-auto{
+    margin: auto;
+}
+.m-w-20{
+    max-width:70vw;
+}
+
+h1{
+    text-align: center;
+    
+    color: rgb(7, 7, 7);
+    font-size: 50px;
+}
+
+.button{
+    margin: 5px;
+    margin-top: 3px;
+    padding: 30px;
+    border-radius: 20px;
+    border-style: inherit;
+    cursor: pointer;
+    background-color: rgb(123, 240, 28);
+    font-size: 25px;
+}
+
+.row{
+    margin: 10px;
+}
+
+.row input{
+    padding: 15px;
+    font-size: 2rem;
+}
+
+
+/* adding medai queries */
+
+
+@media(max-width:512px){
+    
+        .button{                                             
+            margin: 5px;
+            margin-top: 3px;
+            padding: 10px;
+            border-radius: 20px;
+            border-style: inherit;
+            cursor: pointer;
+            background-color: rgb(123, 240, 28);
+            font-size: 25px;
+
+        }
+
+        .row input{
+            padding: 5px;
+            font-size: 1rem;
+        }
+    
+
+}
